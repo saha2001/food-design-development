@@ -1,0 +1,406 @@
+
+html,body{
+    scroll-behavior: smooth;
+    
+}
+.top-navbar{
+
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('image/igloo1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    background-color: #fdcb6e;
+   padding: 15px;
+    border: 2px solid white;
+    border-radius: 25px;
+    
+}
+.home-button{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    
+  
+   
+    
+}
+#saha{
+    background-color: transparent;
+    border: 2px solid sandybrown;
+    transition: 1s linear;
+    font-weight: 800;
+    transition: 0.5s ease-in-out;
+    
+}
+.btn{
+    
+border-radius: 25px;
+width: 115px;
+margin: 10px;
+
+
+}
+#saha:hover{
+    background-color:rgb(22, 175, 202);
+   
+}
+.btn a{
+   text-decoration: none;
+   transition: 0.5s ease-in-out;
+   color: #f78fb3;
+   
+  
+}
+.btn a:hover{
+  color: black;
+
+  
+}
+.head-div{
+  color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(image/berry.jpeg);
+   background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover ;
+}
+h2{
+    color: azure;
+    text-transform: capitalize;
+font-family:'Times New Roman', Times, serif;
+}
+.content .rupeebutton {
+width: 150px;
+text-align: left;
+margin-left: 20px;
+margin-top: 5px;
+height: 30px;
+color: white;
+border: none;
+background-color: rgba(0, 0, 0, 0.1);
+font-size: 18px;
+}
+.juice-container{
+padding: 30px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100vw;
+min-height: 100vmin;
+background-color: #1d8997;
+background-position: center;
+background-size: cover;
+margin: 0px;
+
+}
+
+ .juice-container .juicebox {
+   
+   background-color: #f78fb3;
+   position: relative;
+   text-align: center;
+   padding: 10px;
+   margin: 10px;
+   height: 330px;
+   width: 240px;
+   border-radius: 10px;
+   align-items: center;
+   flex-wrap: wrap;
+}
+img{
+    
+   border-radius: 5px;
+    width: 200px;
+    height: 140px;
+    border: 5px solid red;
+    transition: 0.2s ease-in-out;
+   
+   
+}
+img:hover{
+    width: 210px;
+    height: 150px;
+   
+}
+.content h2{
+    color: black;
+    font-size: 23px;
+    padding: 8px;
+}
+.rupeebutton .fa{
+    
+    color: black;
+    font-size: 20px;
+    width: 350px;
+}
+.juicerating {
+border: none;
+background-color: #f78fb3;
+padding: 10px;
+}
+.juicerating h3{
+    position: relative;
+    display: inline-block;
+  
+    font-size: 15px;
+    padding: 0px; 
+    bottom: 0px;
+    left: -20px;
+    width: 80px;
+    height: 5px;
+}
+.juicecart{
+    border: 3px solid tomato;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    transition: 1s ease-in-out;
+}
+.juicecart h4{
+    position: relative;
+    font-size: 15px;
+    padding: 5px; 
+    bottom: 0px;
+    width: 90px;
+    height: 20px;
+   
+}
+
+.juicecart:hover{
+background-color: wheat;
+color:black;
+}
+.material-symbols-outlined{
+    color: brown;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-weight: 500;
+    font-size: xx-large;
+  
+    
+}
+#star{
+    position: relative;
+    width: 10px;
+    top: 3px;
+    padding: 1px;
+    margin-left: 1px;
+    font-size: 15px;
+}
+#rupee{
+    position: relative;
+    top: 3px;
+    padding: 1px;
+   left: 5px;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+.head-div{
+    width: 100vw;
+    height: 100vh;
+  
+}
+.name{
+    position: relative;
+    display: flex;
+    color: #3dc1d3;
+    
+    align-items: center;
+    justify-content: center;
+     left: -30px;
+    top: 35%;
+    font-size: 45px;
+
+}
+.igloo{
+    color: #f78fb3;
+    background-color: transparent;
+    border: 2px solid#e84393 ;
+    border-radius: 25px;
+    font-style: italic;
+    letter-spacing: 2px;
+    padding-left:15px;
+    font-size: 85px;
+}
+.tamil{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 150px;
+    top: 270px;
+}
+.food{
+    font-weight: 600;
+    font-style:italic;
+    color: red;
+    text-decoration: underline solid green 5px;
+  }
+h1{
+    font-size: 80px;  
+    background: rgb(195,34,176);
+  background: linear-gradient(128deg, rgb(212, 100, 60) 0%, rgba(45,249,253,1)50%,rgba(181, 52, 113,1.0)100% );
+  color: transparent;
+  background-clip:text ;
+  -webkit-background-clip:text ;
+
+  background-size: 400% 400%;
+  animation: colername 0.2s ease infinite;
+  margin-bottom: 10px;
+  
+  }
+  @keyframes colername{
+      0%{
+         background-position: 0%;
+      }
+      25%{
+          background-position: 100%;
+      }
+      50%{
+          background-position: 100%;
+      }
+      100%{
+          background-position: 0%;
+      }
+  }
+  .loder{
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      left: 43%;
+      height: 100px;
+      width: 100px;
+      background: rgb(34,188,195);
+  background: linear-gradient(128deg, rgb(29, 235, 246) 13%, rgb(121, 15, 125) 91%);
+   border-radius: 50%;
+   box-shadow: box-shadow rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   animation: colorrot 1.4s  linear infinite; 
+  }
+  .loder::before{
+      position: absolute;
+      content: '';
+      height: 90%;
+      width: 90%;
+      background-color:#2c3e50;
+      border-radius: 50%;
+      top: 50%;
+      left:50%;
+      transform: translate(-50%,-50%);
+  }
+  @keyframes colorrot{
+      to{
+         transform: rotate(360deg );
+      }
+      
+  }
+ 
+  
+  .card{
+      padding:20px;
+      color: #fdcb6e;
+      background: linear-gradient(128deg,rgb(18, 204, 33)  0%,rgba(255, 165, 2,1.0) 50%,rgba(123, 237, 159,1.0)100% );
+  color: transparent;
+  background-clip:text ;
+  -webkit-background-clip:text ;
+      cursor: pointer;
+      font-size: 20px;
+      background-size: 400% 400%;
+      animation: coname 2s ease-in infinite; 
+  }
+  @keyframes coname{
+      0%{
+         background-position: 0%;
+      }
+      50%{
+          background-position: 200%;
+      }
+      
+      100%{
+          background-position: 0%;
+      }
+  }
+  
+
+
+
+
+
+  
+  @media only screen and (max-width: 600px) {
+    body {
+     
+      width: 100vw;
+      height: 200px;
+      overflow-x:hidden;
+    }
+    body:hover{
+        width: vw;
+       
+    }
+    .home-button{
+        position: relative;
+       top: 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    #saha{
+        width: 120px;
+    }
+    
+        .tamil{
+            color:white;
+            position: absolute;
+            top:550px;
+            left: 30px;
+            font-weight: 900;
+            font-size: 25px;
+          }
+          .food{
+            font-weight: 600;
+            font-style:italic;
+            color: red;
+            text-decoration: underline solid rgb(10, 205, 10) 5px;
+          }
+          .name{
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+             right: 350px;
+            top: 60px;
+            font-size: 35px;
+        
+        }
+        .igloo{
+            font-size: 35px;
+            position: absolute;
+            top: 40px;
+            left: 50px;
+        }
+        .juice-container{
+            width: 100vw;
+            min-height: 100vmin;
+            background-color: aqua;
+             
+        }
+  }
